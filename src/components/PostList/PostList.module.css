@@ -1,0 +1,15 @@
+.parent {
+  @apply px-8 mt-8;
+}
+
+.title {
+  @apply text-2xl font-[700] flex items-center gap-3;
+}
+
+.blogCardParent {
+  @apply grid grid-cols-1 lg:grid-cols-2 gap-4 mt-8;
+}
+
+.paginationParent {
+  @apply flex justify-center my-12;
+}

@@ -1,0 +1,42 @@
+/* PostCard.module.css */
+
+.postCard {
+  @apply hover:bg-gray-100 transition-all ease-linear duration-200 bg-white border border-gray-200 rounded-lg;
+}
+.routerLink {
+  @apply flex flex-col md:flex-row w-full h-full;
+}
+.postContent {
+  @apply flex flex-col justify-between py-8 px-4 leading-normal;
+}
+
+.postImg {
+  @apply h-full w-full rounded-t-lg md:h-auto md:w-48 md:rounded-none md:rounded-s-lg object-cover;
+}
+.postTitle {
+  @apply mb-2 text-2xl font-bold tracking-tight text-gray-900;
+}
+
+.cardBody {
+  @apply flex items-center gap-4;
+}
+
+.cardUserName {
+  @apply font-[600] italic text-gray-600;
+}
+
+.postBodyText {
+  @apply mb-3 font-normal text-gray-700 dark:text-gray-400;
+}
+
+.postMetaIcon {
+  @apply text-gray-400 text-lg pr-1;
+}
+
+.postPhone {
+  @apply font-[600] italic text-gray-600;
+}
+
+.iconStyle {
+  @apply pr-1 text-lg;
+}

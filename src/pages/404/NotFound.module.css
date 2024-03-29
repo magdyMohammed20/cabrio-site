@@ -1,0 +1,27 @@
+.parent {
+  @apply bg-white h-vh-minus-64 flex items-center justify-center;
+}
+
+.innerParent {
+  @apply py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6;
+}
+
+.contentContainer {
+  @apply mx-auto max-w-screen-sm text-center;
+}
+
+.title {
+  @apply mb-4 text-7xl tracking-tight font-extrabold lg:text-9xl  text-red-400;
+}
+
+.firstMsg {
+  @apply mb-4 text-3xl tracking-tight font-bold text-gray-900 md:text-4xl;
+}
+
+.secondMsg {
+  @apply mb-4 text-lg font-light text-gray-500 dark:text-gray-400;
+}
+
+.homeBtn {
+  @apply inline-flex bg-blue-600  text-white focus:ring-4 focus:outline-none  font-medium rounded-lg text-sm px-5 py-2.5 text-center my-4;
+}
