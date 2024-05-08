@@ -1,11 +1,19 @@
 .parent {
-  @apply bg-[#131418] p-4 mx-auto md:flex md:justify-between md:items-center sticky top-0;
+  @apply bg-[#131418] py-1 px-10 mx-auto flex md:justify-between items-center sticky top-0 z-[999] h-[52px] md:h-auto;
 }
 
 .routerParent {
-  @apply flex items-center justify-between;
+  @apply flex md:gap-[50px] items-center md:justify-between;
+}
+
+.normalRouterLink {
+  @apply text-[14px]  text-white hover:text-slate-200;
 }
 
 .routerLink {
   @apply text-xl font-bold text-white italic md:text-2xl hover:text-slate-200;
+}
+
+.liStyle {
+  @apply flex items-center flex-col gap-[5px] relative;
 }

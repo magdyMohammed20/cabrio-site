@@ -8,18 +8,9 @@ const router = createRouter({
       path: '/',
       name: 'home',
       component: Home,
-      redirect: '/posts/1',
+     
     },
-    {
-      path: "/post/:id",
-      name: "postDetail",
-      component: () => import("../pages/PostDetail/PostDetail.vue")
-    },
-    {
-      path: '/posts/:page', // Route for pagination with ":page" as the dynamic parameter
-      name: 'posts',
-      component: Home
-    },
+  
     {
       path: '/:pathMatch(.*)*', // Catch all paths that are not matched
       name: 'NotFound',
